@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
 <head>
 	<title>Varun Agarwal</title>
 	<!-- Meta -->
@@ -12,7 +15,8 @@
 	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">
 	<link rel="shortcut icon" href="assets/images/projects/fav.png">
 
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'
+		type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<!-- Global CSS -->
 	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -20,25 +24,24 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- github calendar css -->
-	<link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"
-	/>
+	<link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css" />
 	<!-- github acitivity css -->
 	<link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css"> 
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 
 	<!-- Theme CSS -->
 	<link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
 
-      <!-- Javascript -->
-      <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-      <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
-      <!-- github calendar plugin 
+	<!-- Javascript -->
+	<script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+	<!-- github calendar plugin 
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
       <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
@@ -46,384 +49,484 @@
       <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
       <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
       -->
-      <!-- custom js -->
-      <script type="text/javascript" src="assets/js/main.js"></script>
+	<!-- custom js -->
+	<script type="text/javascript" src="assets/js/main.js"></script>
 
-      <!-- Google Analytics -->
-      <script>
-      	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      	ga('create', 'UA-89619965-1', 'auto');
-      	ga('send', 'pageview');
-      </script>
+	<!-- Google Analytics -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+		ga('create', 'UA-89619965-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 
-      <style>
-      	.modal-dialog {
-      		height: 92%;
-      		padding: 0;
-      	}
-      	.modal-content {
-      		height: 99%;
-      	}
-      </style>
-  </head>
+	<style>
+		.modal-dialog {
+			height: 92%;
+			padding: 0;
+		}
 
-  <body>
+		.modal-content {
+			height: 99%;
+		}
+	</style>
+</head>
 
-  	<!-- *** Project Modals *** -->
+<body>
 
-  	<!-- Modal -->
-  	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  		<div class="modal-dialog">
-  			<div class="modal-content">
-  				<div class="modal-header">
-  					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-  					<h4 class="modal-title" id="myModalLabel">Quiz-o-pedia - Dynamic Quiz Game using Linked Data</h4>
-  				</div>
-  				<div class="modal-body">
-  					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
-  						<!-- Indicators -->
-  						<ol class="carousel-indicators">
-  							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-  							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-  							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-  							<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-  						</ol>
+	<!-- *** Project Modals *** -->
 
-  						<!-- Wrapper for slides -->
-  						<div class="carousel-inner">
-  							<div class="item active">
-  								<img src="assets/images/projects/q1.png" alt="...">
+	<!-- Modal -->
+	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Quiz-o-pedia - Dynamic Quiz Game using Linked Data</h4>
+				</div>
+				<div class="modal-body">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+						</ol>
 
-  							</div>
-  							<div class="item">
-  								<img src="assets/images/projects/q2.png" alt="...">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="assets/images/projects/q1.png" alt="...">
 
-  							</div>
-  							<div class="item">
-  								<img src="assets/images/projects/q3.png" alt="...">
+							</div>
+							<div class="item">
+								<img src="assets/images/projects/q2.png" alt="...">
 
-  							</div>
-  							<div class="item">
-  								<img src="assets/images/projects/q4.png" alt="...">
+							</div>
+							<div class="item">
+								<img src="assets/images/projects/q3.png" alt="...">
 
-  							</div>
-  							<div class="item">
-  								<img src="assets/images/projects/q5.png" alt="...">
+							</div>
+							<div class="item">
+								<img src="assets/images/projects/q4.png" alt="...">
 
-  							</div>
-  						</div>
+							</div>
+							<div class="item">
+								<img src="assets/images/projects/q5.png" alt="...">
 
-  						<!-- Controls -->
-  						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-  							<span class="glyphicon glyphicon-chevron-left"></span>
-  						</a>
-  						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-  							<span class="glyphicon glyphicon-chevron-right"></span>
-  						</a>
-  					</div> <!-- Carousel -->
+							</div>
+						</div>
 
-  					<hr>
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button"
+							data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button"
+							data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div> <!-- Carousel -->
 
-  					Description goes here
-  				</div>
-  				<div class="modal-footer">
-  					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
+					<hr>
 
-
-  	<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  		<div class="modal-dialog">
-  			<div class="modal-content">
-  				<div class="modal-header">
-  					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-  					<h4 class="modal-title" id="myModalLabel">GreenCiti</h4>
-  				</div>
-  				<div class="modal-body">
-  					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
-  						<!-- Indicators -->
-  						<ol class="carousel-indicators">
-  							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-  							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-  							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-  							<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-  						</ol>
-
-  						<!-- Wrapper for slides -->
-  						<div class="carousel-inner">
-  							<div class="item active">
-  								<img src="assets/images/projects/gc1.png" alt="...">
-
-  							</div>
-  							<div class="item">
-  								<img src="assets/images/projects/gc2.png" alt="...">
-
-  							</div>
-  							<div class="item">
-  								<img src="assets/images/projects/gc3.png" alt="...">
-
-  							</div>
-  							<div class="item">
-  								<img src="assets/images/projects/gc4.png" alt="...">
-
-  							</div>
-  							<div class="item">
-  								<img src="assets/images/projects/gc5.png" alt="...">
-
-  							</div>
-  							<div class="item">
-  								<img src="assets/images/projects/gc6.png" alt="...">
-
-  							</div>
-  						</div>
-
-  						<!-- Controls -->
-  						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-  							<span class="glyphicon glyphicon-chevron-left"></span>
-  						</a>
-  						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-  							<span class="glyphicon glyphicon-chevron-right"></span>
-  						</a>
-  					</div> <!-- Carousel -->
-  				</div>
-  				<div class="modal-footer">
-  					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-
-  	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  		<div class="modal-dialog">
-  			<div class="modal-content">
-  				<div class="modal-header">
-  					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-  					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-  				</div>
-  				<div class="modal-body">
-  					...
-  				</div>
-  				<div class="modal-footer">
-  					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-
-  	<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  		<div class="modal-dialog">
-  			<div class="modal-content">
-  				<div class="modal-header">
-  					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-  					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-  				</div>
-  				<div class="modal-body">
-  					...
-  				</div>
-  				<div class="modal-footer">
-  					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-
-  	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  		<div class="modal-dialog">
-  			<div class="modal-content">
-  				<div class="modal-header">
-  					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-  					<h4 class="modal-title" id="myModalLabel">Title</h4>
-  				</div>
-  				<div class="modal-body">
-  					...
-  				</div>
-  				<div class="modal-footer">
-  					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-
-  	<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  		<div class="modal-dialog">
-  			<div class="modal-content">
-  				<div class="modal-header">
-  					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-  					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-  				</div>
-  				<div class="modal-body">
-  					...
-  				</div>
-  				<div class="modal-footer">
-  					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-
-  	<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  		<div class="modal-dialog">
-  			<div class="modal-content">
-  				<div class="modal-header">
-  					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-  					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-  				</div>
-  				<div class="modal-body">
-  					...
-  				</div>
-  				<div class="modal-footer">
-  					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-
-  	<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  		<div class="modal-dialog">
-  			<div class="modal-content">
-  				<div class="modal-header">
-  					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-  					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-  				</div>
-  				<div class="modal-body">
-  					...
-  				</div>
-  				<div class="modal-footer">
-  					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-
-  	<div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  		<div class="modal-dialog">
-  			<div class="modal-content">
-  				<div class="modal-header">
-  					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-  					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-  				</div>
-  				<div class="modal-body">
-  					...
-  				</div>
-  				<div class="modal-footer">
-  					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
+					Description goes here
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
+	<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">GreenCiti</h4>
+				</div>
+				<div class="modal-body">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+						</ol>
 
-  	<!-- ******HEADER****** -->
-  	<header class="header">
-  		<div class="container">
-  			<img class="profile-image img-circle img-responsive pull-left" src="assets/images/me.jpg" alt="Ashutosh Parekh" style="height:175px;width=175px" />
-  			<div class="profile-content pull-left">
-  				<h1 class="name">Varun Agarwal</h1>
-  				<h2 class="desc">Computer and Software Development Enthusiast</h2>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="assets/images/projects/gc1.png" alt="...">
 
-  				<ul class="social list-inline">
+							</div>
+							<div class="item">
+								<img src="assets/images/projects/gc2.png" alt="...">
 
-  					<li><a href="https://www.linkedin.com/in/varunagrwl96/" target="_blank" ><i class="fa fa-linkedin"></i></a></li>
-  					<li><a href="
+							</div>
+							<div class="item">
+								<img src="assets/images/projects/gc3.png" alt="...">
+
+							</div>
+							<div class="item">
+								<img src="assets/images/projects/gc4.png" alt="...">
+
+							</div>
+							<div class="item">
+								<img src="assets/images/projects/gc5.png" alt="...">
+
+							</div>
+							<div class="item">
+								<img src="assets/images/projects/gc6.png" alt="...">
+
+							</div>
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button"
+							data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button"
+							data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div> <!-- Carousel -->
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Title</h4>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					...
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- ******HEADER****** -->
+	<header class="header">
+		<div class="container">
+			<img class="profile-image img-circle img-responsive pull-left" src="assets/images/me.jpg"
+				alt="Ashutosh Parekh" style="height:175px;width=175px" />
+			<div class="profile-content pull-left">
+				<h1 class="name">Varun Agarwal</h1>
+				<h2 class="desc">Software Developer / Tech Enthusiast</h2>
+
+				<ul class="social list-inline">
+
+					<li><a href="https://www.linkedin.com/in/varunagrwl96/" target="_blank"><i
+								class="fa fa-linkedin"></i></a></li>
+					<li><a href="
 					https://github.com/varunagrwl96" target="_blank"><i class="fa fa-github"></i></a></li>
-  					<li><a href="https://www.instagram.com/varunagarwal28/" target="_blank" ><i class="fa fa-instagram"></i></a></li>
-  				</ul>
-  			</div><!--//profile-->
-  			<a class="btn btn-warning pull-right" href="assets/Varun Agarwal Resume.pdf" target="_blank"><i class="fa fa-file-text"></i>Download Resume</a>
-  		</div><!--//container-->
-  	</header><!--//header-->
+					<li><a href="https://www.instagram.com/varunagarwal28/" target="_blank"><i
+								class="fa fa-instagram"></i></a></li>
+				</ul>
+			</div>
+			<!--//profile-->
+			<a class="btn btn-warning pull-right" href="assets/Varun Agarwal Resume.pdf" target="_blank"><i
+					class="fa fa-file-text"></i>Download Resume</a>
+		</div>
+		<!--//container-->
+	</header>
+	<!--//header-->
 
-  	<div class="container sections-wrapper">
-  		<div class="row">
-  			<div class="primary col-md-8 col-sm-12 col-xs-12">
+	<div class="container sections-wrapper">
+		<div class="row">
+			<div class="primary col-md-8 col-sm-12 col-xs-12">
 
-  				<section class="about section">
-  					<div class="section-inner">
-  						<h2 class="heading">About Me</h2>
-  						<div class="content">
-                <p>I am interested in converting ideas to code. I dabble with various technologies to build web applications and software solutions. I have experience in competitive programming and web and app development. Recently, I have started studying and developing various projects on Machine Learning and Data Science.</p>
-  							<p>Apart from these, I like listening to Bollywood Songs. Also, I love watching football and am a fan of FC Barcelona. Always up to meet new people.</p>
+				<section class="about section">
+					<div class="section-inner">
+						<h2 class="heading">About Me</h2>
+						<div class="content">
+							<p>I am interested in converting ideas to code. I dabble with various technologies to build
+								web applications and software solutions. I have experience in competitive programming
+								and web and app development. Recently, I have started studying and developing various
+								projects on Machine Learning and Data Science.</p>
+							<p>Apart from these, I like listening to Bollywood Songs. Also, I love watching football and
+								am a fan of FC Barcelona. Always up to meet new people.</p>
 
-  						</div><!--//content-->
-  					</div><!--//section-inner-->
-  				</section><!--//section-->
+						</div>
+						<!--//content-->
+					</div>
+					<!--//section-inner-->
+				</section>
+				<!--//section-->
 
-  				<section class="experience section">
-  					<div class="section-inner">
-  						<h2 class="heading">Work Experience</h2>
-  						<div class="content">
-						
-  							<div class="item">
-  								<h3 class="title">Software Engineer - <span class="place"><a href="http://www.jpmorgan.com" target="_blank">JPMorgan Chase & Co.</a></span> <span class="year">(August 2018 - present)</span></h3>
-  								<p>Worked in the Asset & Wealth Management Line of Business. Experience with working in Java (Spring Boot), ReactJS, SQL in an agile manner.</p>
-  							</div><!--//item-->
-<!--//item-->   
-  							<div class="item">
-  								<h3 class="title">Developer Intern - <span class="place"><a href="https://in.linkedin.com/company/zaarvii-technologies/" target="_blank">Zaarvii Technologies</a></span> <span class="year">(Dec 2016 - Jan 2017)</span></h3>
-  								<p>Worked as a Android Developer Intern on developing the UI as well as the Backend of the app, along with Google Maps Integration.</p>
-  							</div><!--//item-->
-  						</div><!--//content-->
-  					</div><!--//section-inner-->
-				  </section><!--//section-->
+				<section class="experience section">
+					<div class="section-inner">
+						<h2 class="heading">Work Experience</h2>
+						<div class="content">
+							<div class="item">
+								<h3 class="title">Software Engineer Intern - <span class="place"><a
+											href="http://www.jpmorgan.com" target="_blank">Meta (Facebook)</a></span>
+									<span class="year">(May 2022 - August 2022)</span></h3>
+								<ul>
+									<li>Designed & implemented status monitoring for Ad violation detection algorithms
+										on Instagram & Facebook.</li>
+									<li>Created dynamic directed graphs for above algorithms using React and metrics
+										dashboard using SQL.</li>
+									<li>Improved development speed by 20x for the team by reducing pipeline runtime from
+										3 hours to 10 minutes.</li>
+									<li>Created tool to derive insights like execution time, no. of ad labels sent for
+										human reviewing, labels reviewed, etc.</li>
+								</ul>
+							</div>
+							<!--//item-->
+							<div class="item">
+								<h3 class="title">Graduate Research Assistant - <span class="place"><a
+											href="http://www.jpmorgan.com" target="_blank">Georgia Institute of
+											Technology</a></span> <span class="year">(Aug 2021 - Present)</span></h3>
+								<ul>
+									<li>Caught 22 students cheating by developing secret tools that detect plagiarism in
+										both online and take-home exams.</li>
+									<li>Published a chrome extension for online discussion forum Edstem providing post
+										suggestions & recommendations.</li>
+								</ul>
+							</div>
+							<!--//item-->
+							<div class="item">
+								<h3 class="title">Associate - <span class="place"><a href="http://www.jpmorgan.com"
+											target="_blank">JPMorgan Chase & Co.</a></span> <span class="year">(Jan 2021
+										- May 2021)</span></h3>
+								<ul>
+									<li>Developed front-end UI using React-Redux for thousands of advisors trading in
+										primary & secondary (FX) markets.</li>
+									<li>Improved speed by 5 seconds (50%) in sequential processing of trades by
+										introducing concurrency.</li>
+								</ul>
+							</div>
+							<!--//item-->
+							<div class="item">
+								<h3 class="title">Software Engineer II - <span class="place"><a
+											href="http://www.jpmorgan.com" target="_blank">JPMorgan Chase &
+											Co.</a></span> <span class="year">(Jan 2020 - Dec 2020)</span></h3>
+								<ul>
+									<li>Built multiple Spring Boot applications with micro-service architecture.
+										Implemented concurrency, actuators, caching, load balancers & loggers.</li>
+									<li>Reduced infrastructure costs by 70% by deploying applications on a private
+										cloud.</li>
+									<li>Reduced the shares allocation process time from more than 2 mins to less than 15
+										secs by introducing multithreading.</li>
+									<li>Reduced latency by introducing Kafka for high-performance processing of trades.
+									</li>
+									<li>Subject Matter Expert at the Code for Good Hackathon for 120+ students for two
+										consecutive years (2019 & 2020).</li>
+								</ul>
+
+							</div>
+							<!--//item-->
+							<div class="item">
+								<h3 class="title">Software Engineer I - <span class="place"><a
+											href="http://www.jpmorgan.com" target="_blank">JPMorgan Chase &
+											Co.</a></span> <span class="year">(July 2018 - Dec 2019)</span></h3>
+								<ul>
+									<li>Reduced deployment effort by more than 90% by implementing the CI/CD pipeline
+										(Jenkins & Jules) incorporating
+										various scans.</li>
+									<li>Followed proper agile practices including sprint planning, daily standup,
+										backlog refinement, retrospective, etc.</li>
+									<li>Awarded for developing a React Native solution for NGO ‘Annadhan’ in the Force
+										for Good initiative over 8 months.</li>
+								</ul>
+							</div>
+							<!--//item-->
+							<div class="item">
+								<h3 class="title">Developer Intern - <span class="place"><a
+											href="https://in.linkedin.com/company/zaarvii-technologies/"
+											target="_blank">Zaarvii Technologies</a></span> <span class="year">(Dec 2016
+										- Jan 2017)</span></h3>
+								<p>Worked as a Android Developer Intern on developing the UI as well as the Backend of
+									the app, along with Google Maps Integration.</p>
+							</div>
+							<!--//item-->
+						</div>
+						<!--//content-->
+					</div>
+					<!--//section-inner-->
+				</section>
+				<!--//section-->
 
 				<section class="pulications section">
 					<div class="section-inner">
 						<h2 class="heading">Publications </h2>
-						
+
 						<hr class="divider" />
 
 						<div class="content">
-				
+
 							<!--//item-->
 
 							<hr class="divider" />
 
 							<div class="item">
-								<h4 class="title"><a href="https://ieeexplore.ieee.org/document/8697382" target="_blank">
+								<h4 class="title"><a href="https://ieeexplore.ieee.org/document/8697382"
+										target="_blank">
 										Twitter Analysis For Disaster Management </a></h4>
 								<p>
 									Awarded as the "Best Paper of the Session".
-									We have attempted to help governments and NGO's in their pursuit to rescue people during disasters and handling the aftermath.<br><br>
-							
-							
+									We have attempted to help governments and NGO's in their pursuit to rescue people
+									during disasters and handling the aftermath.<br><br>
+
+
 								</p>
 								<div style="text-align:center;">
-									<a href="assets/Twitter.pdf" target="_blank"
-										class="btn btn-xs btn-warning">View</a>
+									<a href="assets/Twitter.pdf" target="_blank" class="btn btn-xs btn-warning">View</a>
 								</div>
-							
+
 							</div>
 
 							<hr class="divider" />
-							
+
 							<div class="item">
-								<h4 class="title"><a href="https://ieeexplore.ieee.org/document/8697364" target="_blank">
-									Automated Aspect Extraction and Aspect Oriented Sentiment Analysis on Hotel Review Datasets </a></h4>
+								<h4 class="title"><a href="https://ieeexplore.ieee.org/document/8697364"
+										target="_blank">
+										Automated Aspect Extraction and Aspect Oriented Sentiment Analysis on Hotel
+										Review Datasets </a></h4>
 								<p>
-									We built a review system for hotels data extendable to any reviews dataset based on aspect learning methods. <br><br>
-						
-							
+									We built a review system for hotels data extendable to any reviews dataset based on
+									aspect learning methods. <br><br>
+
+
 								</p>
 								<div style="text-align:center;">
-									<a href="assets/Aspect.pdf" target="_blank"
-										class="btn btn-xs btn-warning">View</a>
+									<a href="assets/Aspect.pdf" target="_blank" class="btn btn-xs btn-warning">View</a>
 								</div>
-							
+
 							</div>
 
 						</div>
 
 
-						
-						
+
+
 						<!--//content-->
 					</div>
 					<!--//section-inner-->
@@ -431,33 +534,39 @@
 				<!--//section-->
 
 
-				  
 
-  				<section class="latest section">
-  					<div class="section-inner">
-  						<h2 class="heading">Projects</h2>
-  						<div class="content">
-							  <hr class="divider" />
-						<div class="item row">
-  								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image" src="assets/images/projects/va1.jfif" alt="" />
-  								<div class="desc col-md-8 col-sm-8 col-xs-12">
-									  <h3 class="title">Disaster Management using Twitter</h3>
-									  <p>Project on research paper to help Government & NGO's for disaster management & rescue purposes.
-									  <br>
-										 <b>Geo Location Feature</b> : To help identify dangerous places on a map & provide help based on it.
+
+				<section class="latest section">
+					<div class="section-inner">
+						<h2 class="heading">Projects</h2>
+						<div class="content">
+							<hr class="divider" />
+							<div class="item row">
+								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image"
+									src="assets/images/projects/va1.jfif" alt="" />
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<h3 class="title">Disaster Management using Twitter</h3>
+									<p>Project on research paper to help Government & NGO's for disaster management &
+										rescue purposes.
 										<br>
-										 <b>Google Charts</b> : For statistics of death count, total loss, people missing, etc.
+										<b>Geo Location Feature</b> : To help identify dangerous places on a map &
+										provide help based on it.
+										<br>
+										<b>Google Charts</b> : For statistics of death count, total loss, people
+										missing, etc.
 										<br>
 										<b>NLP</b> : Stemming, Tokenization, Word Vectors, removal of stop words, etc.
-										</p>								
+									</p>
 									<!--<center>
 									  <a href="https://github.com/pratikaher88/AnomalyLegalDocuments" class="btn btn-sm btn-success" target="_blank">
   										View Source Code
 									  </a>
 									</center>-->
-  								</div><!--//desc-->
-							  </div><!--//item-->  		  
-							  
+								</div>
+								<!--//desc-->
+							</div>
+							<!--//item-->
+
 
 							<!--</div>
 							<!--//desc-->
@@ -465,177 +574,245 @@
 								href="https://github.com/pratikaher88/BookStoreProject"
 								target="_blank"> View Source Code</a>
 						</div> -->
-						<!--//item-->
+							<!--//item-->
 							<hr class="divider" />
 
-  							<div class="item row">
-  								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image" src="assets/images/projects/va2.jpg" alt="" />
-  								<div class="desc col-md-8 col-sm-8 col-xs-12">
-									  <h3 class="title">Automated Aspect Extraction and Aspect Oriented Sentiment Analysis on Hotel Review Datasets  </h3>
-									  <p>Application developed for research paper publication. Automated aspect extraction gave the ability to rate reviews for any field be it hotels, movies, restaurants, etc. on the dynamically extracted aspects like food, ambience, staff, etc.<br>
-									<b>Used</b> : Stanford Dependency Parser, Word2Vec, NLTK, K-means clustering.
-									 </p>
+							<div class="item row">
+								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image"
+									src="assets/images/projects/va2.jpg" alt="" />
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<h3 class="title">Automated Aspect Extraction and Aspect Oriented Sentiment Analysis
+										on Hotel Review Datasets </h3>
+									<p>Application developed for research paper publication. Automated aspect extraction
+										gave the ability to rate reviews for any field be it hotels, movies,
+										restaurants, etc. on the dynamically extracted aspects like food, ambience,
+										staff, etc.<br>
+										<b>Used</b> : Stanford Dependency Parser, Word2Vec, NLTK, K-means clustering.
+									</p>
 									<!--<center>
 									  <a href="https://github.com/pratikaher88/AnomalyLegalDocuments" class="btn btn-sm btn-success" target="_blank">
   										View Source Code
 									  </a>
 									</center>-->
-  								</div><!--//desc-->
-							  </div><!--//item-->  	
-							  
+								</div>
+								<!--//desc-->
+							</div>
+							<!--//item-->
+
 							<hr class="divider" />
 
 
-  							<div class="item row">
-  								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image" src="assets/images/projects/va3.jfif" alt="" />
-  								<div class="desc col-md-8 col-sm-8 col-xs-12">
-  									<h3 class="title">Chaakri - Ecommerce application for NGO </h3>
-  									<p>Developed an e-commerce mobile + web application for NGO 'SaNiSa' as part of JP Morgan's Code For Good Hackathon.<br>
-									Inventory management for distributors & factory head.<br>
-									Admin dashboard for statistics & visualization along with top performer's recognition on social media like Twitter.
-									<br>
-									<b>Used</b> : Google's Distance Matrix API, Google Maps, Twitter Api, Messaging Service
-									<br>
-									<b> Technologies</b> : Android, PHP, HTML, CSS, Bootstrap
-									
-									
-									</p>
-									<br>
-									  <center>
-									  <a href="https://github.com/varunagrwl96/team-2" class="btn btn-sm btn-success" target="_blank">
-  										View Source Code
-									  </a>
-									</center>
-  								</div><!--//desc-->
-							  </div><!--//item-->
-							  
-							<hr class="divider" />
+							<div class="item row">
+								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image"
+									src="assets/images/projects/va3.jfif" alt="" />
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<h3 class="title">Chaakri - Ecommerce application for NGO </h3>
+									<p>Developed an e-commerce mobile + web application for NGO 'SaNiSa' as part of JP
+										Morgan's Code For Good Hackathon.<br>
+										Inventory management for distributors & factory head.<br>
+										Admin dashboard for statistics & visualization along with top performer's
+										recognition on social media like Twitter.
+										<br>
+										<b>Used</b> : Google's Distance Matrix API, Google Maps, Twitter Api, Messaging
+										Service
+										<br>
+										<b> Technologies</b> : Android, PHP, HTML, CSS, Bootstrap
 
-  							<div class="item row">
-  								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image" src="assets/images/projects/va4.jfif" alt="" />
-  								<div class="desc col-md-8 col-sm-8 col-xs-12">
-  									<h3 class="title">Farmer's Market</h3>
-  									<p>Developed an Android application for famer’s to sell crops directly to buyers with easy registration by scanning Aadhar Card ID.
-									<br>
-									Introduced <b>multilingual functionality</b> to ease the use of application for less educated farmers.
-									<br>
-									Used <b>Recurrent Neural Network</b> to predict the best suitable crop for farming based on the soil & weather conditions.
+
 									</p>
 									<br>
 									<center>
-										<a href="https://github.com/varunagrwl96/Market"
+										<a href="https://github.com/varunagrwl96/team-2" class="btn btn-sm btn-success"
+											target="_blank">
+											View Source Code
+										</a>
+									</center>
+								</div>
+								<!--//desc-->
+							</div>
+							<!--//item-->
+
+							<hr class="divider" />
+
+							<div class="item row">
+								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image"
+									src="assets/images/projects/va4.jfif" alt="" />
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<h3 class="title">Farmer's Market</h3>
+									<p>Developed an Android application for famer’s to sell crops directly to buyers
+										with easy registration by scanning Aadhar Card ID.
+										<br>
+										Introduced <b>multilingual functionality</b> to ease the use of application for
+										less educated farmers.
+										<br>
+										Used <b>Recurrent Neural Network</b> to predict the best suitable crop for
+										farming based on the soil & weather conditions.
+									</p>
+									<br>
+									<center>
+										<a href="https://github.com/varunagrwl96/Market" class="btn btn-sm btn-success"
+											target="_blank">
+											View Source Code
+										</a>
+									</center>
+								</div>
+								<!--//desc-->
+							</div>
+							<!--//item-->
+
+							<hr class="divider" />
+
+							<div class="item row">
+								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image"
+									src="assets/images/projects/va5.jfif" alt="" />
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<h3 class="title">Bye Typing</h3>
+									<p>Developed an Android application which used Optical Character Recognition to
+										convert written or printed documents into soft documents which would then be
+										uploaded to cloud such as Google Drive<br>
+									</p>
+									<br>
+									<center>
+										<a href="https://github.com/varunagrwl96/AndroidOCR"
 											class="btn btn-sm btn-success" target="_blank">
 											View Source Code
 										</a>
 									</center>
-  								</div><!--//desc-->
-							  </div><!--//item--> 
-							  
-							  <hr class="divider" />
-							  
-							  <div class="item row">
-  								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image" src="assets/images/projects/va5.jfif" alt="" />
-  								<div class="desc col-md-8 col-sm-8 col-xs-12">
-  									<h3 class="title">Bye Typing</h3>
-  									<p>Developed an Android application which used Optical Character Recognition to convert written or printed documents into soft documents which would then be uploaded to cloud such as Google Drive<br>
-									</p>
-									<br>
-									  <center>
-									  <a href="https://github.com/varunagrwl96/AndroidOCR" class="btn btn-sm btn-success" target="_blank">
-  										View Source Code
-									  </a>
-									</center>
-  								</div><!--//desc-->
-							  </div><!--//item-->
+								</div>
+								<!--//desc-->
+							</div>
+							<!--//item-->
 
-  						</div><!--//content-->
-  					</div><!--//section-inner-->
-  				</section><!--//section-->
+						</div>
+						<!--//content-->
+					</div>
+					<!--//section-inner-->
+				</section>
+				<!--//section-->
 
-				
-  				<section class="latest section">
-  					<div class="section-inner">
-  						<h2 class="heading">Major Achievements</h2>
-  						<div class="content">
-  							<hr class="divider" />
 
-  							<div class="item row">
-  								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image" src="assets/images/projects/va3.jfif" alt="" />
-  								<div class="desc col-md-8 col-sm-8 col-xs-12">
-  									<h3 class="title">JPMorgan's Code for Good, Mumbai 2017 - Challenge Runner Up</h3>
-  									<p>One of the 120 students from more than 1200 selected to participate in the contest.<br>Adjudged as the Challenge Runner Up for the selected problem.<br>See the Chaakri project for NGO 'SaNiSa' mentioned in the projects section.</p>
-
-  								</div><!--//desc-->
-  							</div><!--//item-->
-
+				<section class="latest section">
+					<div class="section-inner">
+						<h2 class="heading">Major Achievements</h2>
+						<div class="content">
 							<hr class="divider" />
-							
+
 							<div class="item row">
-  								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image" src="assets/images/projects/va8.jpg" alt="" />
-  								<div class="desc col-md-8 col-sm-8 col-xs-12">
-  									<h3 class="title">CSI Codeshastra 3.0 Runner Up</h3>
-  									<p>Runner-ups out of 220 participants coming from 16 top tier colleges in Round 0<br>
-									Refer to the project Farmer's Market in Projects section.</p>
+								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image"
+									src="assets/images/projects/va3.jfif" alt="" />
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<h3 class="title">JPMorgan's Code for Good, Mumbai 2017 - Challenge Runner Up</h3>
+									<p>One of the 120 students from more than 1200 selected to participate in the
+										contest.<br>Adjudged as the Challenge Runner Up for the selected problem.<br>See
+										the Chaakri project for NGO 'SaNiSa' mentioned in the projects section.</p>
 
-  								</div><!--//desc-->
-  							</div><!--//item-->
+								</div>
+								<!--//desc-->
+							</div>
+							<!--//item-->
 
 							<hr class="divider" />
-							
-  							<div class="item row">
-  								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image" src="assets/images/projects/va6.jpg" alt="" />
-  								<div class="desc col-md-8 col-sm-8 col-xs-12">
-  									<br><h3 class="title">Events Head at Association for Computing Machinery(ACM)</h3>
-  									<p>Awarded as the Best Student Chapter Award among all other associations.<br>
-									Organized various events like seminars, hackathons, internship-fair, Tech-talks,etc. as the Events Head for hundreds of student coordinating with 30+ committee members.
+
+							<div class="item row">
+								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image"
+									src="assets/images/projects/va8.jpg" alt="" />
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<h3 class="title">CSI Codeshastra 3.0 Runner Up</h3>
+									<p>Runner-ups out of 220 participants coming from 16 top tier colleges in Round
+										0<br>
+										Refer to the project Farmer's Market in Projects section.</p>
+
+								</div>
+								<!--//desc-->
+							</div>
+							<!--//item-->
+
+							<hr class="divider" />
+
+							<div class="item row">
+								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image"
+									src="assets/images/projects/va6.jpg" alt="" />
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<br>
+									<h3 class="title">Events Head at Association for Computing Machinery(ACM)</h3>
+									<p>Awarded as the Best Student Chapter Award among all other associations.<br>
+										Organized various events like seminars, hackathons, internship-fair,
+										Tech-talks,etc. as the Events Head for hundreds of student coordinating with 30+
+										committee members.
 									</p>
-									  <center>
-									  <a href="https://www.slideshare.net/slideshow/embed_code/key/rW3QikF8zvmDh4" class="btn btn-sm btn-success" target="_blank">
-  										View ACM Report
-									  </a>
+									<center>
+										<a href="https://www.slideshare.net/slideshow/embed_code/key/rW3QikF8zvmDh4"
+											class="btn btn-sm btn-success" target="_blank">
+											View ACM Report
+										</a>
 									</center>
 
-  								</div><!--//desc-->
-  							</div><!--//item-->
+								</div>
+								<!--//desc-->
+							</div>
+							<!--//item-->
 
 							<hr class="divider" />
-							
-  							<div class="item row">
-  								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image" src="assets/images/projects/va7.jfif" alt="" />
-  								<div class="desc col-md-8 col-sm-8 col-xs-12">
-  									<br><h3 class="title">Logistics Head at Computer Society of India(CSI)</h3>
-  									<p>Awarded as the Best Active CSI Branch in India.<br>
-									Organized various events like seminars, two inter-collegiate hackathons with one as first ever overnight hackathon in our college, Tedx event,etc. as the Logistics Head for hundreds of student coordinating with 50+ committee members.</p>
 
-  								</div><!--//desc-->
-  							</div><!--//item-->
+							<div class="item row">
+								<img class="col-md-4 col-sm-4 col-xs-12 img-responsive project-image"
+									src="assets/images/projects/va7.jfif" alt="" />
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<br>
+									<h3 class="title">Logistics Head at Computer Society of India(CSI)</h3>
+									<p>Awarded as the Best Active CSI Branch in India.<br>
+										Organized various events like seminars, two inter-collegiate hackathons with one
+										as first ever overnight hackathon in our college, Tedx event,etc. as the
+										Logistics Head for hundreds of student coordinating with 50+ committee members.
+									</p>
 
-  						</div><!--//content-->
-  					</div><!--//section-inner-->
-  				</section><!--//section-->
+								</div>
+								<!--//desc-->
+							</div>
+							<!--//item-->
 
-  			</div><!--//primary-->
-			
-			
+						</div>
+						<!--//content-->
+					</div>
+					<!--//section-inner-->
+				</section>
+				<!--//section-->
+
+			</div>
+			<!--//primary-->
 
 
-  			<div class="secondary col-md-4 col-sm-12 col-xs-12">
-  				<aside class="education aside section">
-  					<div class="section-inner">
-  						<h2 class="heading">Education</h2>
-  						<div class="content">
-  							<div class="item">
-  								<a href="http://www.djsce.ac.in" target="_blank"><h3 class="title"><i class="fa fa-graduation-cap"></i> DJ Sanghvi COE</h3></a>
-  								<h4 class="university"> B.E. in Information Technology  <span class="year"> (2014-2018)</span></h4>
-  							</div><!--//item-->
-  							<div class="item">
-  								<a href="http://www.kccollege.edu.in/" target="_blank">    <h3 class="title"><i class="fa fa-graduation-cap"></i> Kishinchand Chellaram College </h3></a>
-  								<h4 class="university"> Higher Secondary Certificate <span class="year"> (2012-2014)</span></h4>
-  							</div><!--//item-->
-  						</div><!--//content-->
-  					</div><!--//section-inner-->
-				  </aside><!--//section-->
-				  
+
+
+			<div class="secondary col-md-4 col-sm-12 col-xs-12">
+				<aside class="education aside section">
+					<div class="section-inner">
+						<h2 class="heading">Education</h2>
+						<div class="content">
+							<div class="item">
+								<a href="http://www.djsce.ac.in" target="_blank">
+									<h3 class="title"><i class="fa fa-graduation-cap"></i> DJ Sanghvi COE</h3>
+								</a>
+								<h4 class="university"> B.E. in Information Technology <span class="year">
+										(2014-2018)</span></h4>
+							</div>
+							<!--//item-->
+							<div class="item">
+								<a href="http://www.kccollege.edu.in/" target="_blank">
+									<h3 class="title"><i class="fa fa-graduation-cap"></i> Kishinchand Chellaram College
+									</h3>
+								</a>
+								<h4 class="university"> Higher Secondary Certificate <span class="year">
+										(2012-2014)</span></h4>
+							</div>
+							<!--//item-->
+						</div>
+						<!--//content-->
+					</div>
+					<!--//section-inner-->
+				</aside>
+				<!--//section-->
+
 				<aside class="info aside section">
 					<div class="section-inner">
 						<h2 class="heading">Basic Information</h2>
@@ -655,22 +832,26 @@
 				<!--//aside-->
 
 
-  				<aside class="list conferences aside section">
-  					<div class="section-inner">
-  						<h2 class="heading">Conferences</h2>
-  						<div class="content">
+				<aside class="list conferences aside section">
+					<div class="section-inner">
+						<h2 class="heading">Conferences</h2>
+						<div class="content">
 							<ul class="list-unstyled">
-								<li><i class="fa fa-calendar"></i> <a href="https://iccubea.com/" target="_blank">ICCUBEA-2018</a> (Mumbai)</li>
+								<li><i class="fa fa-calendar"></i> <a href="https://iccubea.com/"
+										target="_blank">ICCUBEA-2018</a> (Mumbai)</li>
 							</ul>
 
-  						</div><!--//content-->
-  					</div><!--//section-inner-->
-  				</aside><!--//section-->
-				
+						</div>
+						<!--//content-->
+					</div>
+					<!--//section-inner-->
+				</aside>
+				<!--//section-->
+
 				<aside class="list conferences aside section">
-  					<div class="section-inner">
-  						<h2 class="heading">Favourites</h2>
-  						<div class="content">
+					<div class="section-inner">
+						<h2 class="heading">Favourites</h2>
+						<div class="content">
 							<ul class="list-unstyled">
 								<li><i class="fa fa-star"></i> Football Player : Lionel Messi</li>
 								<li><i class="fa fa-star"></i> Music Artist : Ed Sheeran</li>
@@ -678,18 +859,25 @@
 								<li><i class="fa fa-star"></i> Youtuber : David Dobrik</li>
 							</ul>
 
-  						</div><!--//content-->
-  					</div><!--//section-inner-->
-  				</aside><!--//section-->
+						</div>
+						<!--//content-->
+					</div>
+					<!--//section-inner-->
+				</aside>
+				<!--//section-->
 
 
 
-  			</div><!--//secondary-->
-  		</div><!--//row-->
-  	</div><!--//masonry-->
+			</div>
+			<!--//secondary-->
+		</div>
+		<!--//row-->
+	</div>
+	<!--//masonry-->
 
-  	<!-- ******FOOTER****** -->
+	<!-- ******FOOTER****** -->
 
 
-  </body>
-  </html>
+</body>
+
+</html>
